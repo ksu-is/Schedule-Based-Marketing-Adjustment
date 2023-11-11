@@ -1,0 +1,9 @@
+- [x] Fork/Clone existing repository for project basis
+- [x] Run existing repository to ensure validity
+- [x] Create Read.me
+- [ ] Work out problems within the code and apply solutions
+- [ ] Modify exiting code and related files to better suit to be created code
+- [ ] Create code to reference existing scheduling code
+- [ ] Create code to adjust marketing spending based on scheduling code reference
+- [ ] Work out problems/kinks within the newly created code
+- [ ] Run final code and finely tune for precision

@@ -16,7 +16,7 @@ logo_label.grid(row=1, column=3, sticky=NSEW)
 
 
 # Label to direct user to choose which action to take
-question_title = Label(main_window, text="What Would You Like to Do?", background="#F0E68C", borderwidth=25, font=85)
+question_title = Label(main_window, text="Would you like to schedule an appointment or check for an existing appointment?", background="#F0E68C", borderwidth=25, font=85)
 question_title.grid(row=2, column=3, ipadx=10, padx=10)
 
 # Button to schedule new appointment

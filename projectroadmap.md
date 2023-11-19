@@ -3,7 +3,7 @@
 - [x] Create Read.me
 - [x] Work out problems within the code and apply solutions
 - [x] Modify exiting code and related files to better suit to be created code
-- [ ] Create code to reference existing scheduling code
-- [ ] Create code to adjust marketing spending based on scheduling code reference
+- [x] Create code to reference existing scheduling code
+- [x] Create code to adjust marketing spending based on scheduling code reference
 - [ ] Work out problems/kinks within the newly created code
 - [ ] Run final code and finely tune for precision

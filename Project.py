@@ -1,6 +1,19 @@
-from appointmentCreator import enter_data
+from appointmentCreator import *
+import sqlite3
 
-if enter_data == "":
-    print ("Increase marketing spending")
-elif enter_data in time:
-    print ("Decrease marketing spending")
+conn = sqlite3.connect('appointment_information.db')
+c = conn.cursor()
+date_entry = Entry()
+
+def enter_data():
+    return date_entry.get()
+
+data = enter_data()
+
+if data == "":
+    print("Increase marketing spending")
+else:
+    if check_data_existence(data):
+        print("Decrease marketing spending")
+    else:
+        print("No action needed")

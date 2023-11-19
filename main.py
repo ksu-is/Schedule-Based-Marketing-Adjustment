@@ -1,9 +1,3 @@
-"""
-Realaxx Real Estate Appointment App
-Lorelei Gatten
-This program is intended to allow users to schedule, search, and re-schedule previously set appointments
-with a local real estate company."""
-
 # Import necessary libraries and functions
 from tkinter import *
 from appointmentCreator import app_set
@@ -11,12 +5,12 @@ from appointmentSearch import app_find
 
 # Creating main window and setting selections
 main_window = Tk()
-main_window.title("Realaxx Real Estate Appointment Scheduler")
+main_window.title("HVAC Appointment Scheduler")
 main_window.configure(bg="#F0E68C")
-main_window.geometry("800x500")
+main_window.geometry("1000x540")
 
 # Banner with Company Name
-real_Logo = PhotoImage(file="RealaxxLogo.png")
+real_Logo = PhotoImage(file="GrassrootsHVAC.png")
 logo_label = Label(image=real_Logo)
 logo_label.grid(row=1, column=3, sticky=NSEW)
 
